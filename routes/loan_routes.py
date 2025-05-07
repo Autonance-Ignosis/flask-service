@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from tensorflow import keras
 
 
-model = keras.models.load_model('/Users/krispatel/Desktop/Project-I/Flask/models/Loan_default.h5')
+model = keras.models.load_model('/Users/krispatel/Desktop/Autonance/flask-service/models/Loan_default.h5')
 
 loan_bp = Blueprint('loan_bp', __name__)
 
