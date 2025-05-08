@@ -7,9 +7,9 @@ from flask import Blueprint
 mandate_bp = Blueprint('mandate', __name__)
 
 
-model = joblib.load("/Users/krispatel/Desktop/Autonance/flask-service/models/mandate_classifier.pkl")
-scaler = joblib.load("/Users/krispatel/Desktop/Autonance/flask-service/models/amount_scaler.pkl")
-le_dict = joblib.load("/Users/krispatel/Desktop/Autonance/flask-service/models/label_encoders.pkl")
+model = joblib.load("/home/naitik/Desktop/Autonomous_Ignosis/Flask/models/mandate_classifier.pkl")
+scaler = joblib.load("/home/naitik/Desktop/Autonomous_Ignosis/Flask/models/amount_scaler.pkl")
+le_dict = joblib.load("/home/naitik/Desktop/Autonomous_Ignosis/Flask/models/label_encoders.pkl")
 
 
 @mandate_bp.route('/predict', methods=['POST'])
