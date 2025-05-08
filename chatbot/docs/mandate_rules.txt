@@ -1,0 +1,71 @@
+Overview
+Once a user's loan is approved, a mandate setup is required before any funds are disbursed. This section describes the loan selection process, mandate requirements, and legal responsibilities involved in repayment through automatic deductions.
+
+Workflow
+Loan Application Interface
+
+Users can apply for loans through multiple banks integrated into Autonance.
+
+Loan-type-specific filters help users select the most suitable option based on:
+
+Type: Home Loan, Personal Loan, Car Loan, etc.
+
+This allows for a more personalized loan discovery experience.
+
+Loan Application and Bank Review
+
+Once the user submits the application:
+
+The respective bank receives and begins verifying the request.
+
+This verification process takes approximately 3–4 business days.
+
+Loan Approval
+
+Upon approval, the user is notified via the Autonance dashboard and email.
+
+At this stage, the loan is not yet disbursed.
+
+The user must proceed to set up a mandate.
+
+Mandate Setup (Mandatory Before Disbursal)
+
+The user provides bank details for EMI deduction:
+
+This bank may be the same or different from the loan-issuing bank.
+
+Details must be accurate and verifiable.
+
+The user selects a mandate start date for EMI deduction.
+
+This mandate authorizes the selected bank to auto-debit EMIs on the agreed schedule.
+
+Mandate Verification
+
+The bank verifies the mandate via secure channels (e.g., NACH, eSign, bank APIs).
+
+Only after successful mandate verification, the loan amount is credited to the user’s bank account.
+
+EMI and Legal Policy
+
+EMI will be auto-deducted from the user’s account monthly starting from the selected date.
+
+If there is insufficient balance:
+
+A warning is issued to the user.
+
+Repeated failures (e.g., 3 warnings) will allow the bank to:
+
+Take legal action
+
+Report the user to credit authorities
+
+False Information Clause
+
+Submitting false or misleading mandate/bank information will result in:
+
+Immediate rejection of the loan
+
+Potential legal consequences from the bank
+
+Possible blacklisting from future loans 
