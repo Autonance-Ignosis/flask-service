@@ -1,0 +1,47 @@
+Overview
+The KYC (Know Your Customer) process is a mandatory step for all users of Autonance. It ensures that only verified individuals can access the platform's features, promoting security, trust, and compliance with regulatory norms.
+
+Workflow
+User Sign-In with Google
+
+Users register and log in exclusively via Google Authentication.
+
+This eliminates the need for password management and ensures secure login.
+
+Redirect to KYC Submission
+
+After the first successful login via Google, users are redirected to the KYC Submission Page.
+
+Access to the rest of the platform is restricted until KYC is completed and approved.
+
+Document Upload
+
+Users are prompted to upload the following:
+
+PAN Card
+
+Aadhaar Card
+
+Requirements:
+
+Accepted formats: JPG, PNG, or PDF
+
+Maximum file size: 5 MB per document
+
+Users must also agree to the terms and conditions regarding document verification and privacy.
+
+Verification Timeline
+
+Once documents are submitted:
+
+KYC verification takes 1–2 business days.
+
+The status is shown as "Pending Verification" on the user's dashboard.
+
+During this period, access to other features remains blocked.
+
+KYC Outcome
+
+Approved: Users receive a confirmation message and are granted full access to all platform features.
+
+Rejected: Users receive a rejection message with the reason and an option to re-upload valid documents for re-verification.
