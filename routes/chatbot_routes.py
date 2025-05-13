@@ -4,6 +4,11 @@ import faiss
 import numpy as np
 import requests
 from flask import Blueprint, request, jsonify
+
+# Set environment variables to disable TensorFlow and use PyTorch
+os.environ["TRANSFORMERS_NO_TF"] = "1"
+os.environ["USE_TF"] = "0"
+
 from sentence_transformers import SentenceTransformer
 
 chatbot_bp = Blueprint("chatbot", __name__)
