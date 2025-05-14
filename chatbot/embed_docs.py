@@ -1,6 +1,11 @@
 import os
 import faiss
 import json
+
+# Set environment variables to disable TensorFlow and use PyTorch
+os.environ["TRANSFORMERS_NO_TF"] = "1"
+os.environ["USE_TF"] = "0"
+
 from sentence_transformers import SentenceTransformer
 import numpy as np
 

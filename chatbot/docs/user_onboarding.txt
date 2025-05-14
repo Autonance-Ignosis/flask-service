@@ -1,0 +1,71 @@
+User Onboarding & Platform Flow
+Overview
+This section covers the complete user journey on Autonance — from registration using Google Authentication to accessing financial services like loan applications, mandate setup, transaction monitoring, and analytics.
+
+1.⁠ ⁠Registration & KYC Verification
+Users register/sign in using Google Authentication (OAuth).
+
+On first login, users are required to:
+
+Upload PAN card
+
+Upload Aadhar card
+
+This initiates the KYC (Know Your Customer) process.
+
+KYC verification is carried out by authorized back-office systems and typically takes 1–2 business days.
+
+Until the KYC is approved, access to other features is restricted.
+
+2.⁠ ⁠Loan Application Process
+Once KYC is verified, the user gains access to the loan application module.
+
+Features include:
+
+Filters based on loan type (e.g., Home, Education, Personal)
+
+Ability to browse offers from multiple partner banks
+
+After submitting a loan application:
+
+The selected bank receives the applicant's details.
+
+The bank performs its own verification and may accept or reject the application.
+
+Status updates are visible on the user's dashboard.
+
+3.⁠ ⁠Mandate Setup & Loan Disbursement
+If the loan is approved, the user is prompted to:
+
+Set up a mandate using any of their existing bank accounts.
+
+Provide correct bank details and select a start date for EMI deductions.
+
+The bank then verifies the submitted mandate.
+
+Upon successful mandate approval:
+
+The loan amount is disbursed to the user's account.
+
+EMI payments begin automatically based on the date specified in the mandate.
+
+⚠ Legal & Compliance Notes:
+Any false information (e.g., incorrect bank details) can lead to immediate rejection and legal action by the bank.
+
+If the user's bank account lacks sufficient balance:
+
+Warning notifications are sent.
+
+After a set number of warnings, the bank has the right to pursue legal action.
+
+4.⁠ ⁠Bank Transaction & Analytics
+Beyond loans, users can:
+
+View their linked bank accounts.
+
+Track real-time balances.
+
+Access a transaction history.
+
+Visualize spending/income trends using graphical analytics.
+This helps users monitor their financial behavior and plan better
